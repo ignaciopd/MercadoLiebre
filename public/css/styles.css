@@ -1,0 +1,425 @@
+*{
+    box-sizing: border-box;
+}
+body { 
+    font-size: 12px;
+    font-family: 'Roboto', sans-serif;
+    background-color: #ebebeb;
+    
+}
+
+body p {
+    font-size: 12px;
+}
+
+/* Nav-bar */
+
+.main-header-top {
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo { 
+    width:45%;
+}
+
+.box{
+    display: inline-block;
+    position: relative;
+    bottom: 16px;
+}
+
+.box input{
+    padding: 5px;
+    border-radius: 6px;
+    border: none;
+ }
+.box i {
+    background-color: white;
+    padding: 7px;
+    border-radius: 7px;
+}
+
+
+.copy-header {
+    font-size: 15px;
+}
+
+.main-header { 
+    background-color: #EAC926;
+    padding: 20px;
+}
+
+.copy-header{ 
+    text-align: center;
+    font-weight: 400;
+}
+
+.burger-menu { 
+    background-color:#1259c3;
+    padding: 15px 0;
+    border-radius: 3px;
+    max-width: 50px;
+    display: block;
+    color: white;
+    text-align: center;
+    font-size:18px;
+    margin: auto;
+}
+
+.main-navbar{
+    display: none;
+}
+
+.main-navbar ul { 
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.main-navbar a { 
+        color: black; 
+        text-decoration: none;
+        display: inline-block;
+        padding: 5px 0;
+}
+
+
+/* MAIN */
+
+article i{
+    display: block;
+    font-size: 16px;
+    padding: 5px;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #39b54a;
+    background-color: #FFF;
+    border-radius: 50%;
+    position: absolute;
+    right: 46px;
+    top: -14px;
+}
+
+.fa-truck {
+    color: #39b54a;
+    font-size: 17px;
+}
+
+.precios {
+    font-size: 18px}
+
+.descuentos { 
+    font-size: 16px;
+    color: #39b54a; 
+}
+
+.descripciones { font-size:16px}
+
+
+.banner-section {
+    left:0%
+}
+
+.banner{
+    width: 100vw;
+    right: 0;
+}
+
+h2 {
+    text-align:left;
+    color:#666;
+    font-size: 24px
+}
+
+.products-article article img {
+    width:100%;
+}
+    
+.section-article{
+    width: 90%;
+    margin: auto;
+}
+
+.conteiner-datos{
+    border-top: solid 1px #ebebeb;
+    padding: 15px;
+    display: none;
+
+    
+}
+
+.products-article article{
+    background-color: white;
+    margin-bottom: 10px;
+}
+
+/* FOOTER */ 
+
+footer{ 
+    max-width:100%;
+    background-color: white;
+}
+
+.fototer-article {
+    margin: auto;
+    text-align: center;
+    padding: 28px 50px;
+}
+
+.fototer-article h3{
+    font-size: 18px;
+    margin-bottom: -10px;
+    color: #666;
+}
+
+.fototer-article p{
+    color: #666
+}
+
+.fa-credit-card, .fa-gift, .fa-user-shield{
+    color: #1259c3;
+    font-size: 35px;
+}
+
+.copyright{
+    font-size: 11px;
+    font-weight: 100;
+    color: #666;
+    padding: 5px 15px;
+}
+
+
+/* REGISTER-FORM */
+
+.registro-form{
+    padding: 15px
+}
+.control-form{
+    margin-bottom: 20px;
+}
+
+.labelform {
+    font-size: 10px;
+    font-weight: 600;
+}
+
+.control-form label {
+    margin-bottom: 11px;
+    display: block;
+} 
+
+.contol { 
+    width: 100%;
+    padding: 8px;
+    font-size: 10px;
+    border-radius: 2px;
+    border: none
+}
+
+.perfil-usuario { 
+    display: flex;
+    align-items: center;
+}
+
+.perfil-usuario label{
+    margin-right: 10px;
+}
+
+.subbir-archivo{
+    margin-left: 0px;
+}
+
+.button-submit{
+    background-color: #1259c3;
+    color: white;
+    border: none;
+    text-decoration: none;
+    width: 30%;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.button-reset{
+    background-color: grey;
+    color: white;
+    border: none;
+    text-decoration: none;
+    width: 30%;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+
+@media (min-width: 361px) {
+
+
+    .products-articlearticle {
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+    }
+    nav{
+        display: block;
+    }
+
+}
+
+@media (min-width: 768px) {
+
+    .main-header-top{
+        display: flex;
+        align-items: center;
+    }
+
+
+    .logo { 
+        width:35%;
+    }
+    .conteiner-datos {
+        display:flex;
+        flex-direction: column;
+        position: relative;
+    } 
+
+    .box{
+        bottom:0px;
+    }
+
+    .conteiner-precios{
+        display: flex;
+        flex-direction: row;
+        padding: 0;
+        align-items: center;
+
+    }
+
+    .precios{
+        margin-right: 10px;
+    }
+
+    .products-article article {
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+    }
+  
+    .main-header-top { 
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .copy-header { 
+        max-width: 350px;
+        text-align: right;
+        font-size: 15px;
+    }
+
+    .burger-menu {
+        display: none;
+    }
+    
+    .main-navbar{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 30px;
+    }
+
+    .main-navbar ul{
+        display: flex;
+    }
+
+    .main-navbar li{
+        margin: 0 5px;
+    }
+
+    h2 { 
+        text-align: left;
+
+    }
+    .products-article{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .products-article article{ 
+        width: 40vw;
+        margin-bottom: 10px;
+    }
+
+    .registro-form{
+        width: 70%;
+        margin: auto;
+    }
+
+    .login-submit{
+        width: 100%;
+        padding: 10px 0;
+    }
+
+    .login-submit:hover{
+        background-color:#0022AA
+    }
+
+
+}
+
+@media (min-width:1200px){
+    .main-header{
+        max-width: 1200px;
+        margin: auto;
+    }
+    .main-navbar, .main-header-top{
+        max-width: 1200px;
+        margin: auto;
+    }
+
+    .main-header-top{
+        align-items: center;
+    }
+
+    .main-navbar li {
+        margin: 0 10px
+    }
+    .main-navbar a {
+        font-size: 14px
+    }
+
+    .main-navbar{
+        margin-top: 10px;
+    }
+
+    .banner { 
+        max-width: 1200px;
+    }
+    .banner-section{
+        display: flex;
+        justify-content: center;
+    }
+
+    .products-article{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        
+    }
+
+    .products-article article {
+        width: 20%
+    }
+
+    section h2 {
+        text-align: left;
+        color: grey;
+    }
+
+    footer{
+        max-width: 1200px;
+        margin: auto;
+    }
+    .footer-conteiner{
+        display: flex;
+    }
+
+    main {
+        max-width: 1200px;
+        margin: auto;
+    }
+
+
+}
