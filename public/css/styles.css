@@ -105,6 +105,10 @@ article i{
     font-size: 17px;
 }
 
+.fa-truck:hover {
+	transform: rotate(270deg);
+}
+
 .precios {
     font-size: 18px}
 
@@ -113,7 +117,8 @@ article i{
     color: #39b54a; 
 }
 
-.descripciones { font-size:16px}
+.descripciones { 
+    font-size:16px}
 
 
 .banner-section {
@@ -277,7 +282,8 @@ footer{
         display:flex;
         flex-direction: column;
         position: relative;
-    } 
+        
+    }
 
     .box{
         bottom:0px;
@@ -295,7 +301,12 @@ footer{
         margin-right: 10px;
     }
 
-    .products-article article {
+
+    .products-article article:hover .descripciones{ 
+        display: initial;
+    }
+
+    .products-article article:hover {
         box-shadow: 0px 0px 10px rgb(100, 100, 100);
     }
   
@@ -332,6 +343,9 @@ footer{
         text-align: left;
 
     }
+
+
+
     .products-article{
         display: flex;
         flex-wrap: wrap;
@@ -340,6 +354,20 @@ footer{
     .products-article article{ 
         width: 40vw;
         margin-bottom: 10px;
+    }
+
+    .conteiner-datos{
+    }
+
+    .descripciones{
+        display: none;
+        align-items: flex-end;
+
+    }
+
+    .conteiner-datos:hover .descripciones{
+        display: initial;
+        
     }
 
     .registro-form{
